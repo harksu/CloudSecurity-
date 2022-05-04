@@ -11,6 +11,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wqa
+|2,0,1651678382,,"wqa"
 :wq
 |2,0,1651676578,,"wq"
 
@@ -25,20 +27,31 @@
 # Registers:
 
 # File marks:
-'0  12  0  ~/midex1.c
-|4,48,12,0,1651676578,"~/midex1.c"
+'0  13  2  ~/midex1.c
+|4,48,13,2,1651678382,"~/midex1.c"
+'1  12  0  ~/midex1.c
+|4,49,12,0,1651676578,"~/midex1.c"
+'2  12  0  ~/midex1.c
+|4,50,12,0,1651676578,"~/midex1.c"
 
 # Jumplist (newest first):
+-'  13  2  ~/midex1.c
+|4,39,13,2,1651678382,"~/midex1.c"
+-'  12  0  ~/midex1.c
+|4,39,12,0,1651678376,"~/midex1.c"
 -'  12  0  ~/midex1.c
 |4,39,12,0,1651676578,"~/midex1.c"
+-'  1  0  ~/midex1.c
+|4,39,1,0,1651676495,"~/midex1.c"
 -'  1  0  ~/midex1.c
 |4,39,1,0,1651676495,"~/midex1.c"
 
 # History of marks within files (newest to oldest):
 
 > ~/midex1.c
-	*	1651676577	0
-	"	12	0
-	^	12	1
-	.	12	0
-	+	12	0
+	*	1651678381	0
+	"	13	2
+	^	13	3
+	.	13	2
+	+	12	1
+	+	13	2

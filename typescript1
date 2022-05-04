@@ -207,4 +207,46 @@ origin	https://github.com/harksu/CloudSecurity-.git (push)
 ]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
 On branch main
 nothing to commit, working tree clean
-]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git cmo[K[K[K[K[K[K[K
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git cmo[K[K[K[K[K[K[Kgit cm[Komit[K[Kmit [K[K[K[K[K[K[K[K[K[K[Kls
+midex1.c  README.md  typescript1
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git moo[K[K[Kcommit -m "fisrs[K[K[Krst [K"
+[main 4ee1edd] first
+ 1 file changed, 83 insertions(+), 1 deletion(-)
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch main
+nothing to commit, working tree clean
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push -u origin main
+Username for 'https://github.com': harksulim         harksulim    u
+Password for 'https://harksu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push -u origin main
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ clear
+[3J[H[2J]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ cleargit push -u origin main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+midex1.c  README.md  typescript1
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ vi midex1.c
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"midex1.c" 12L, 212C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m/* midex1.c : mycopy_with_120 */[m
+
+[35m#include[m[31m<stdio.h>[m
+[35m#include[m[31m<string.h>[m
+[32mint[m copier([32mchar[m * str){[6;9H[32mchar[m buffer[[31m120[m];[7;9Hstrcpy(buffer,str);
+}
+[32mvoid[m main([32mint[m argc, [32mchar[m *argv[])[106m{[m[10;9Hcopier(argv[[31m1[m]);[11;9Hprintf([31m"Done![m[35m\n[m[31m"[m);
+[106m}[m
+[94m~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H12,1[10CAll[12;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[96m/* midex1.c : mycopy_with_120 */[m
+
+[38;5;81m#include[m[95m<stdio.h>[m
+[38;5;81m#include[m[95m<string.h>[m
+[38;5;121mint[m copier([38;5;121mchar[m * str){[6;9H[38;5;121mchar[m buffer[[95m120[m];[7;9Hstrcpy(buff
