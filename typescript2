@@ -1516,4 +1516,72 @@ Changes not staged for commit:
 [?1h=  main[m[m
   master[m[m
 * [32mmaster2[m[m
-[K[?1l>]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~
+[K[?1l>]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git checkout master
+error: Your local changes to the following files would be overwritten by checkout:
+	.viminfo
+	typescript1
+	typescript2
+Please commit your changes or stash them before you switch branches.
+Aborting
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add [K[K[K[K[K[K[K[K
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git ch[K[K[K[K[K[Kgit cmo[K[K[K[K[K[K[Kgit add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git cmo[K[Kommit -m ":st"
+[master2 3fe187e] :st
+ 3 files changed, 847 insertions(+), 349 deletions(-)
+ rewrite .viminfo (66%)
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git config ==u[K[K[K--unset credenta[Kial.helper
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master
+Username for 'https://github.com': harsku      harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git config -- gl[K[K[Kgl[K[K global/[K.name harksu
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git config -- global [K.email harksulim@naver.com
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git rmoet [K[K[K[K[Kemote -v 
+origin	https://github.com/harksu/CloudSecurity-.git (fetch)
+origin	https://github.com/harksu/CloudSecurity-.git (push)
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git inti[K[Kit
+Reinitialized existing Git repository in /home/user01/.git/
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ cd /home/user01/.git/
+]0;user01@kali: ~/.git[01;31muser01@kali[00m:[01;34m~/.git[00m$ ls
+[0m[01;34mbranches[0m        config       HEAD   index  [01;34mlogs[0m     packed-refs
+COMMIT_EDITMSG  description  [01;34mhooks[0m  [01;34minfo[0m   [01;34mobjects[0m  [01;34mrefs[0m
+]0;user01@kali: ~/.git[01;31muser01@kali[00m:[01;34m~/.git[00m$ git in[K[K[K[K[K[Kvi info
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"info" is a directory[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m" ============================================================================
+" Netrw Directory Listing                                        [m[36m(netrw v156)[m
+[34m"   /home/user01/.git/info
+"   Sorted by[m[38;5;130m      name[m
+[34m"   Sort sequence:[m[38;5;130m [\/]$[m[34m,[m[38;5;130m\<core\%(\.\d\+\)\=\>[m[34m,[m[38;5;130m\.h$[m[34m,[m[38;5;130m\.c$[m[34m,[m[38;5;130m\.cpp$[m[34m,[m[38;5;130m\~\=\*$[m[34m,[m[38;5;130m*[m[34m,[m[38;5;130m\.o$[m[34m,[6;1H"   Quick Help: [m[36m<F1>[m[35m:[mhelp  [36m-[m[35m:[mgo up dir  [36mD[m[35m:[mdelete  [36mR[m[35m:[mrename  [36ms[m[35m:[msort-by  [36mx[m[35m:[mspecia[7;1H[34m" =============================================================================[m[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                            [m[9;1H[34m.[m[36m/[m
+exclude
+[94m~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H8,1[11CAll[8;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[96m" ============================================================================
+" Netrw Directory Listing                                        [m[1m[96m(netrw v156)[m
+[96m"   /home/user01/.git/info
+"   Sorted by[m[93m      name[m
+[96m"   Sort sequence:[m[93m [\/]$[m[96m,[m[93m\<core\%(\.\d\+\)\=\>[m[96m,[m[93m\.h$[m[96m,[m[93m\.c$[m[96m,[m[93m\.cpp$[m[96m,[m[93m\~\=\*$[m[96m,[m[93m*[m[96m,[m[93m\.o$[m[96m,[6;1H"   Quick Help: [m[1m[96m<F1>[m[38;5;224m:[mhelp  [1m[96m-[m[38;5;224m:[mgo up dir  [1m[96mD[m[38;5;224m:[mdelete  [1m[96mR[m[38;5;224m:[mrename  [1m[96ms[m[38;5;224m:[msort-by  [1m[96mx[m[38;5;224m:[mspecia[7;1H[96m" =============================================================================[m[8;1H[4m[38;5;159m..[m[1m[4m[96m/[m[4m                                                                            [m[9;1H[38;5;159m.[m[1m[96m/[m
+exclude
+[94m~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H8,1[11CAll"info" is a directory[8;1H[?25h[?25l[24;52H^[[8;1H[24;52H  [8;1H[24;52H^[[8;1H[24;52H  [8;1H[?25h[?25l[24;52H:[8;1H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1006l[?1002l[?2004l[?1006h[?1002h[?2004h[?1006l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;user01@kali: ~/.git[01;31muser01@kali[00m:[01;34m~/.git[00m$ vi logs
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"logs" is a directory[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m" ============================================================================
+" Netrw Directory Listing                                        [m[36m(netrw v156)[m
+[34m"   /home/user01/.git/logs
+"   Sorted by[m[38;5;130m      name[m
+[34m"   Sort sequence:[m[38;5;130m [\/]$[m[34m,[m[38;5;130m\<core\%(\.\d\+\)\=\>[m[34m,[m[38;5;130m\.h$[m[34m,[m[38;5;130m\.c$[m[34m,[m[38;5;130m\.cpp$[m[34m,[m[38;5;130m\~\=\*$[m[34m,[m[38;5;130m*[m[34m,[m[38;5;130m\.o$[m[34m,[6;1H"   Quick Help: [m[36m<F1>[m[35m:[mhelp  [36m-[m[35m:[mgo up dir  [36mD[m[35m:[mdelete  [36mR[m[35m:[mrename  [36ms[m[35m:[msort-by  [36mx[m[35m:[mspecia[7;1H[34m" =============================================================================[m[8;1H[4m[34m..[m[4m[36m/[m[4m                                                                            [m[9;1H[34m.[m[36m/[m
+[34mrefs[m[36m/[m
+HEAD
+[94m~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H8,1[11CAll[8;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[96m" ============================================================================
+" Netrw Directory Listing                                        [m[1m[96m(netrw v156)[m
+[96m"   /home/user01/.git/logs
+"   Sorted by[m[93m      name[m
+[96m"   Sort sequence:[m[93m [\/]$[m[96m,[m[93m\<core\%(\.\d\+\)\=\>[m[96m,[m[93m\.h$[m[96m,[m[93m\.c$[m[96m,[m[93m\.cpp$[m[96m,[m[93m\~\=\*$[m[96m,[m[93m*[m[96m,[m[93m\.o$[m[96m,[6;1H"   Quick Help: [m[1m[96m<F1>[m[38;5;224m:[mhelp  [1m[96m-[m[38;5;224m:[mgo up dir  [1m[96mD[m[38;5;224m:[mdelete  [1m[96mR[m[38;5;224m:[mrename  [1m[96ms[m[38;5;224m:[msort-by  [1m[96mx[m[38;5;224m:[mspecia[7;1H[96m" =============================================================================[m[8;1H[4m[38;5;159m..[m[1m[4m[96m/[m[4m                                                                            [m[9;1H[38;5;159m.[m[1m[96m/[m
+[38;5;159mrefs[m[1m[96m/[m
+HEAD
+[94m~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H8,1[11CAll"logs" is a directory[8;1H[?25h[?25l[?2
