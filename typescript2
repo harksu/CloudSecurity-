@@ -1232,4 +1232,288 @@ genA2.py  input2.txt  midex1.c  midex2.c  README.md  typescript2
   master[m[m
 * [32mmaster2[m[m
 [K[?1l>]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ gt push[K[K[K[K[K[K[Kgit pus [Kh
-fatal: The current bran
+fatal: The current branch master2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master2
+
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origim master2
+fatal: 'origim' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master2
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ vi te[K[K[K[K[Kghp_vZohHe228r[KRam[K[KAMS9m[K[K[KS[KS[KS[Ks9mHN5jFft6mpAYSHU48cnWD
+bash: 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: command not found
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ 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[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pit push origin master2
+Username for 'https://github.com': HARKSU      harksu
+Password for 'https://harksu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ 
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remote -v
+origin	https://github.com/harksu/CloudSecurity-.git (fetch)
+origin	https://github.com/harksu/CloudSecurity-.git (push)
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git intit[K[K[Kit
+Reinitialized existing Git repository in /home/user01/.git/
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git stuat[K[K[Kauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch master2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .git-credentials[m
+	[31mmodified:   .viminfo[m
+	[31mmodified:   typescript1[m
+	[31mmodified:   typescript2[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mgenA2.py[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch master2
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .git-credentials[m
+	[32mmodified:   .viminfo[m
+	[32mnew file:   genA2.py[m
+	[32mmodified:   typescript1[m
+	[32mmodified:   typescript2[m
+
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git commit -m "jebal"
+[master2 cba7e15] jebal
+ 5 files changed, 1725 insertions(+), 323 deletions(-)
+ rewrite .viminfo (84%)
+ create mode 100644 genA2.py
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ g[Kgit push origin master
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master2
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ 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[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push origin master2[K
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ ls
+genA1.py  input1.txt  [0m[37;41mmidex1[0m    [01;32mmidex2[0m    pw.txt     typescript1
+genA2.py  input2.txt  midex1.c  midex2.c  README.md  typescript2
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ vi pw.txt 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"pw.txt" 1L, 41C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H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
+[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H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
+[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,1[11CAll"pw.txt" 1L, 41C[1;1H[?25h[?25l[24;52H^[[1;1H[24;52H  [1;1H[24;52H^[[1;1H[24;52H  [1;1H[?25h[?25l[24;52H:[1;1H[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"pw.txt" 1L, 41C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ vi pw.txt ls[Kgit push origin master2
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ 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[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push origin master2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pvi pw.txt git push origin master2
+Username for 'https://github.com': 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
+Password for 'https://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@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master2
+Username for 'https://github.com': hakr  rksu
+Password for 'https://harksu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master2
+Username for 'https://github.com': hgarksu      arksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ girt [K[K[K[K[Kgit remote remove origin
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remove[K[Kte -v
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remote add origin https://harskulim@naver.com [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Korigin [K github[K[K[K[K[K[Kgithub.com/harksu/CLoud[K[K[K[KloudSecurity-.git
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remo[K[K[Kemoet[K[Kte -v
+origin	github.com/harksu/CloudSecurity-.git (fetch)
+origin	github.com/harksu/CloudSecurity-.git (push)
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git commit 
+hint: Waiting for your editor to close the file... [?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"~/.git/COMMIT_EDITMSG" 10L, 262C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[35mmaster2[m
+[34m# [m[35mChanges to be committed:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  .viminfo[m
+[34m#       [m[32mmodified[m[34m: [m[31m  typescript1[m
+[34m#       [m[32mmodified[m[34m: [m[31m  typescript2[m
+[34m#[m
+[94m~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[96m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[38;5;224mmaster2[m
+[96m# [m[38;5;81mChanges to be committed:[m
+[96m#       [m[38;5;121mmodified[m[96m: [m[95m  .viminfo[m
+[96m#       [m[38;5;121mmodified[m[96m: [m[95m  typescript1[m
+[96m#       [m[38;5;121mmodified[m[96m: [m[95m  typescript2[m
+[96m#[m
+[94m~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,0-1[9CAll"~/.git/COMMIT_EDITMSG" 10L, 262C[1;1H[?25h[?25l[24;52H^M[1;1H[24;52H  [2;1H[24;62H2,1  [2;1H[?25h[?25l[24;52H^M[2;1H[24;52H  [3;1H[24;62H3[3;1H[?25h[?25l[24;52H^M[3;1H[24;52H  [4;1H[24;62H4[4;1H[?25h[?25l[24;52H^[[4;1H[24;52H  [4;1H[24;52H^[[4;1H[24;52H  [4;1H[?25h[?25l[24;52H:[4;1H[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l".git/COMMIT_EDITMSG" 10L, 262C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0t[KAborting commit due to empty commit message.
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git [K[K[K[Kgit psu[K[K[Kpush originm[K[K[K[K[K[Krigin master [K2
+fatal: 'github.com/harksu/CloudSecurity-.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remove remote origin
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remove remote origin[1P origin[1P origin[1P origin[1P origin[1P origin[1P origin[1Porigin[1P origin[1P origin[1P origin[1P origin[1P origin[1P origin[1Porigin[C originr origine originm origino origint origine origin[C originr origine originm origino originv origine origin[C origin
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remote [K[K[K[K[K[K[Kremote [K[K[K[K[K[K[Kadd remote d[K[K[K[K[K[Kmote origin github[K[K[K[Kthub.com/harksu/CloudSecurity-
+fatal: pathspec 'remote' did not match any files
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add remote origin github.com/harksu/CloudSecurity-i[K[K
+fatal: pathspec 'remote' did not match any files
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git[K[K[Kgit add remote origin github.com/harksu/CloudSecurity[1P[1P[1P[C[1P[C[C[C[C[C[1@ [1@a[1P[1P[C[C[1@ [1@a[1@d[1@d[C[1@ 
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git cmom[K[K[K[Kcommit
+hint: Waiting for your editor to close the file... [?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"~/.git/COMMIT_EDITMSG" 10L, 262C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[35mmaster2[m
+[34m# [m[35mChanges to be committed:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  .viminfo[m
+[34m#       [m[32mmodified[m[34m: [m[31m  typescript1[m
+[34m#       [m[32mmodified[m[34m: [m[31m  typescript2[m
+[34m#[m
+[94m~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[96m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[38;5;224mmaster2[m
+[96m# [m[38;5;81mChanges to be committed:[m
+[96m#       [m[38;5;121mmodified[m[96m: [m[95m  .viminfo[m
+[96m#       [m[38;5;121mmodified[m[96m: [m[95m  typescript1[m
+[96m#       [m[38;5;121mmodified[m[96m: [m[95m  typescript2[m
+[96m#[m
+[94m~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,0-1[9CAll"~/.git/COMMIT_EDITMSG" 10L, 262C[1;1H[?25h[?25l[24;52H^[[1;1H[24;52H  [1;1H[24;52H^[[1;1H[24;52H  [1;1H[?25h[?25l[24;52H:[1;1H[24;1H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l".git/COMMIT_EDITMSG" 10L, 262C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0t[KAborting commit due to empty commit message.
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin ama[K[K[Kmaster
+fatal: 'github.com/harksu/CloudSecurity' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remote remove origin
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remote add origin https://github.com/harksu/CloudSecurity-.g it
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remote -0[K[K-v
+origin	https://github.com/harksu/CloudSecurity-.git (fetch)
+origin	https://github.com/harksu/CloudSecurity-.git (push)
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch master2
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .viminfo[m
+	[32mmodified:   typescript1[m
+	[32mmodified:   typescript2[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .viminfo[m
+	[31mmodified:   typescript1[m
+	[31mmodified:   typescript2[m
+
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin amste[K[K[K[Km[K[Kmaster
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ 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[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci[K
+bash: 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: command not found
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ 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[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pit push origin master
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master[K[K[K[Kin
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ /etc/beef-xss/cof[Knfig.yaml
+bash: /etc/beef-xss/config.yaml: Permission denied
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ sudo /etc/beef-xss/config.yaml
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for user01: 
+user01 is not in the sudoers file.  This incident will be reported.
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ su [K[K[Ksudo su [K[K[K[K[K[K[K[Ksu sudo[K[K[K[Kroot
+Password: 
+]0;root@kali: /home/user01[01;31mroot@kali[00m:[01;34m/home/user01[00m# /etc [K/beef-xss/config.yaml
+bash: /etc/beef-xss/config.yaml: Permission denied
+]0;root@kali: /home/user01[01;31mroot@kali[00m:[01;34m/home/user01[00m# eixt
+bash: eixt: command not found
+]0;root@kali: /home/user01[01;31mroot@kali[00m:[01;34m/home/user01[00m# exit
+exit
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ sudo [K[K[K[K[Ksudo [K[K[K[K[Ksu -u s[Kroot
+Try 'su --help' for more information.
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ su - root [K
+Password: 
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# /etc/beef-xss/config-[K.yaml
+-bash: /etc/beef-xss/config.yaml: Permission denied
+]0;root@kali: ~[01;31mroot@kali[00m:[01;34m~[00m# sudo[K[K - user01
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch master2
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .viminfo[m
+	[32mmodified:   typescript1[m
+	[32mmodified:   typescript2[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .viminfo[m
+	[31mmodified:   typescript1[m
+	[31mmodified:   typescript2[m
+
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git [K[K[K[Kgit branch
+[?1h=  main[m[m
+  master[m[m
+* [32mmaster2[m[m
+[K[?1l>]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~
