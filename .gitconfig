@@ -1,3 +1,5 @@
 [user]
 	name = harksu
-	email = harskulim@naver.com
+	email = harksulim@naver.com
+[credential]
+	helper = store
