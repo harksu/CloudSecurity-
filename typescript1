@@ -2362,4 +2362,70 @@ vi pw.txt
 vi pw.txt 
 [?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"pw.txt" 1L, 41C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H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
 [94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,40[10CAll[1;40H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H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
-[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,40[10CAll"pw.txt" 1L, 41C[1;40H[?25h[?25l[24;64H1 [1;1H[?25h[?25l[24;52H2[1;2H[48;5;242mg[m[24;1H[1m-- VISUAL --[m[24;14H[K[24;52H2[1;2H[24;62H1,2[11CAll[1;2H[?25h[?25l[24;52H3[1;3H[48;5;242mh[m[24;64H3[1;3H[?25h[?25l[24;52H4[1;4H[48;5;242mp[m[24;64H4[1;4H[?25h[?25l[24;52H5[1;5H[48;5;242m_[m[24;64H5[1;5H[?25h[?25l[24;52H7[1;7H[48;5;242mvZ[m[24;64H7[1;7H[?25h[?25l[24;52H8[1;8H[48;5;242mo[m[24;64H8[1;8H[?25h[?25l[24;52H11[1;11H[48;5;242mhHe[m[24;64H11[1;11H[?25h[?25l[24;53H2[1;12H[48;5;242m2[m[24;65H2[1;12H[?25h[?25l[24;53H5[1;15H[48;5;242m28R[m[24;65H5[1;15H[?25h[?25l[24;53H7[1;17H[48;5;242mAM[m[24;65H7[1;17H[?25h[?25l[24;52H20[1;20H[48;5;242ms9m[m[24;64H20[1;20H[?25h[?25l[24;53H3[1;23H[48;5;242mHN5[m[24;65H3[1;23H[?25h[?25l[24;53H5[1;25H[48;5;242mjF[m[24;65H5[1;25H[?25h[?25l[24;53H7[1;27H[48;5;242mft[m[24;65H7[1;27H[?25h[?25l[24;52H30[1;30H[48;5;242m6mp[m[24;64H30[1;30H[?25h[?25l[24;53H2[1;32H[48;5;242mAY[m[24;65H2[1;32H[?25h[?25l[24;53H5[1;35H[48;5;242mSHU[m[24;65H5[1;35H[?25h[?25l[24;53H6[1;36H[48;5;242m4[m[24;65H6[1;36H[?25h[?25l[24;53H8[1;38H[48;5;242m8c[m[24;65H8[1;38H[?25h[?25l[24;52H41[1;41H[48;5;242mnWD[m[24;64H41[1;41H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[24;52H  [1;18H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[24;1H[K[24;62H1,18[10CAll[1;18H[?25h[?25l[24;1H[1m-- INSERT --[m[24;62H[K[24;62H1,19[10CAll[24;1H[K[1;19H[K[2;1HmHN5jFft6mpAYSHU48cnWD[2;23H[K[24;62H2,1[11CAll[2;1H[?25h[?25l[24;1H[1m
+[94m~                                                                              [3;1H~                                                                              [4;1H~                                                                              [5;1H~                                                                              [6;1H~                                                                              [7;1H~                                                                              [8;1H~                                                                              [9;1H~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H1,40[10CAll"pw.txt" 1L, 41C[1;40H[?25h[?25l[24;64H1 [1;1H[?25h[?25l[24;52H2[1;2H[48;5;242mg[m[24;1H[1m-- VISUAL --[m[24;14H[K[24;52H2[1;2H[24;62H1,2[11CAll[1;2H[?25h[?25l[24;52H3[1;3H[48;5;242mh[m[24;64H3[1;3H[?25h[?25l[24;52H4[1;4H[48;5;242mp[m[24;64H4[1;4H[?25h[?25l[24;52H5[1;5H[48;5;242m_[m[24;64H5[1;5H[?25h[?25l[24;52H7[1;7H[48;5;242mvZ[m[24;64H7[1;7H[?25h[?25l[24;52H8[1;8H[48;5;242mo[m[24;64H8[1;8H[?25h[?25l[24;52H11[1;11H[48;5;242mhHe[m[24;64H11[1;11H[?25h[?25l[24;53H2[1;12H[48;5;242m2[m[24;65H2[1;12H[?25h[?25l[24;53H5[1;15H[48;5;242m28R[m[24;65H5[1;15H[?25h[?25l[24;53H7[1;17H[48;5;242mAM[m[24;65H7[1;17H[?25h[?25l[24;52H20[1;20H[48;5;242ms9m[m[24;64H20[1;20H[?25h[?25l[24;53H3[1;23H[48;5;242mHN5[m[24;65H3[1;23H[?25h[?25l[24;53H5[1;25H[48;5;242mjF[m[24;65H5[1;25H[?25h[?25l[24;53H7[1;27H[48;5;242mft[m[24;65H7[1;27H[?25h[?25l[24;52H30[1;30H[48;5;242m6mp[m[24;64H30[1;30H[?25h[?25l[24;53H2[1;32H[48;5;242mAY[m[24;65H2[1;32H[?25h[?25l[24;53H5[1;35H[48;5;242mSHU[m[24;65H5[1;35H[?25h[?25l[24;53H6[1;36H[48;5;242m4[m[24;65H6[1;36H[?25h[?25l[24;53H8[1;38H[48;5;242m8c[m[24;65H8[1;38H[?25h[?25l[24;52H41[1;41H[48;5;242mnWD[m[24;64H41[1;41H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[24;52H  [1;18H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[24;1H[K[24;62H1,18[10CAll[1;18H[?25h[?25l[24;1H[1m-- INSERT --[m[24;62H[K[24;62H1,19[10CAll[24;1H[K[1;19H[K[2;1HmHN5jFft6mpAYSHU48cnWD[2;23H[K[24;62H2,1[11CAll[2;1H[?25h[?25l[24;1H[1m-- INSERT --[m[24;62H[K[24;62H2,1[11CAll[24;1H[K[2;1H[K[3;1HmHN5jFft6mpAYSHU48cnWD[3;23H[K[24;62H3,1[11CAll[3;1H[?25h[?25l[24;52H^[[3;1H[24;52H  [3;1H[24;52H^[[3;1H[24;52H  [3;1H[?25h[?25l[24;52H:[3;1H[24;52H[K[24;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1006l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch main
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .git-credentials[m
+	[32mmodified:   .gitconfig[m
+	[32mmodified:   .viminfo[m
+	[32mnew file:   genA1.py[m
+	[32mnew file:   input1.txt[m
+	[32mnew file:   midex1[m
+	[32mnew file:   pw.txt[m
+	[32mmodified:   typescript1[m
+
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git commit =[K=, [K[K[K-m " [Kfri[K[Kirst middel[K[K[Kdle exam [K[K[K[K[Khomewrok[K[K[Kork [K"
+[main d44cd31] first middle homework
+ 8 files changed, 2412 insertions(+), 22 deletions(-)
+ create mode 100644 .git-credentials
+ create mode 100644 genA1.py
+ create mode 100644 input1.txt
+ create mode 100755 midex1
+ create mode 100644 pw.txt
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ pusth [K[K [K[Ku origin [K[K[K[K[K[K[K[K[K[K[K[Kpush origin ams[K[K[Kmaster
+-bash: push: command not found
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin amsterr[K[K[K[K[K[K[Kmaset[K[Kter
+error: src refspec master does not match any.
+[31merror: failed to push some refs to 'https://github.com/harksu/CloudSecurity-.git'
+[m]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch main
+nothing to commit, working tree clean
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add [K[K[K[K[K[K[K[Kgit add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git remote -v
+origin	https://github.com/harksu/CloudSecurity-.git (fetch)
+origin	https://github.com/harksu/CloudSecurity-.git (push)
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ gite [K[K[K [K[K[Kls
+genA1.py  input1.txt  [0m[37;41mmidex1[0m  midex1.c  pw.txt  README.md  typescript1
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ clear
+[3J[H[2J]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch main
+nothing to commit, working tree clean
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git cmom[K[K[K[Kpusho[K[K[K[Kush origin master
+error: src refspec master does not match any.
+[31merror: failed to push some refs to 'https://github.com/harksu/CloudSecurity-.git'
+[m]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git init
+Reinitialized existing Git repository in /home/user01/.git/
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git checkout -b master
+Switched to a new branch 'master'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git branch
+[?1h=  main[m[m
+* [32mmaster[m[m
+[K[?1l>]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git [K[K[K[Kcheckout main
+-bash: checkout: command not found
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git checkout main
+Switched to branch 'main'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch main
+nothing to commit, working tree clean
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git inti[K[Kit
+Reinitialized existing Git repository in
