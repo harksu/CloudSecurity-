@@ -1584,4 +1584,66 @@ HEAD
 [96m"   Sort sequence:[m[93m [\/]$[m[96m,[m[93m\<core\%(\.\d\+\)\=\>[m[96m,[m[93m\.h$[m[96m,[m[93m\.c$[m[96m,[m[93m\.cpp$[m[96m,[m[93m\~\=\*$[m[96m,[m[93m*[m[96m,[m[93m\.o$[m[96m,[6;1H"   Quick Help: [m[1m[96m<F1>[m[38;5;224m:[mhelp  [1m[96m-[m[38;5;224m:[mgo up dir  [1m[96mD[m[38;5;224m:[mdelete  [1m[96mR[m[38;5;224m:[mrename  [1m[96ms[m[38;5;224m:[msort-by  [1m[96mx[m[38;5;224m:[mspecia[7;1H[96m" =============================================================================[m[8;1H[4m[38;5;159m..[m[1m[4m[96m/[m[4m                                                                            [m[9;1H[38;5;159m.[m[1m[96m/[m
 [38;5;159mrefs[m[1m[96m/[m
 HEAD
-[94m~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H8,1[11CAll"logs" is a directory[8;1H[?25h[?25l[?2
+[94m~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H8,1[11CAll"logs" is a directory[8;1H[?25h[?25l[?25h[?25l[?25h[?25l[1;23r[1;1H[3M[1;24r[5;1H[38;5;159m..[m[1m[96m/[m[5;4H[K[6;1H[4m[38;5;159m.[m[1m[4m[96m/[m[4m                                                                             [m[21;1H[94m~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;1H[K[24;62H9,1[11CBot[6;1H[?25h[?25l[1;23r[1;1H[3M[1;24r[3;1H[38;5;159m.[m[1m[96m/[m[3;3H[K[5;1H[4mHEAD                                                                           [m[21;1H[94m~                                                                              [22;1H~                                                                              [23;1H~                                                                              [m[24;62H[K[24;62H11,1[10CBot[5;1H[?25h[?25l[24;52H^[[5;1H[24;52H  [5;1H[24;52H^[[5;1H[24;52H  [5;1H[?25h[?25l[24;52H:[5;1H[24;52H[K[24;1H:[?2004h[?25hq[?25l[?25h![?25l[?25h[?25l[?1006l[?1002l[?2004l[?1006h[?1002h[?2004h[?1006l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;user01@kali: ~/.git[01;31muser01@kali[00m:[01;34m~/.git[00m$ cd ..
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ ls
+genA1.py  input1.txt  [0m[37;41mmidex1[0m    [01;32mmidex2[0m    pw.txt     typescript1
+genA2.py  input2.txt  midex1.c  midex2.c  README.md  typescript2
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch master2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .viminfo[m
+	[31mmodified:   typescript1[m
+	[31mmodified:   typescript2[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.vim/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ gut add .
+-bash: gut: command not found
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$  git add .
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git stuats
+git: 'stuats' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git stau[Ktus
+On branch master2
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   .vim/.netrwhist[m
+	[32mmodified:   .viminfo[m
+	[32mmodified:   typescript1[m
+	[32mmodified:   typescript2[m
+
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git cmo[K[Kopmm[K[K[Kmmit -m"jebla"
+[master2 8281ff6] jebla
+ 4 files changed, 362 insertions(+), 161 deletions(-)
+ create mode 100644 .vim/.netrwhist
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git status
+On branch master2
+nothing to commit, working tree clean
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git stauts[K[K[K[Katus
+On branch master2
+nothing to commit, working tree clean
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git push origin master 
+Username for 'https://github.com': harksu
+Password for 'https://harksu@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/harksu/CloudSecurity-.git/'
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git reste[K[Kete[K HEAD
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git stau[Ktus
+On branch master2
+nothing to commit, working tree clean
+]0;user01@kali: ~[01;31muser01@kali[00m:[01;34m~[00m$ git cehckout[K[K[K[K[K[K
